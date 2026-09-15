@@ -1,0 +1,27 @@
+{
+  "strict_mode": true,
+  "dropped_columns": [
+    "ID",
+    "year",
+    "Interest_rate_spread",
+    "rate_of_interest",
+    "Upfront_charges",
+    "credit_type"
+  ],
+  "models": {
+    "logistic_regression": {
+      "accuracy": 0.7058249815026569,
+      "precision": 0.4347105916996411,
+      "recall": 0.644650655021834,
+      "f1_score": 0.519263533937895,
+      "roc_auc": 0.7475273578661673
+    },
+    "random_forest": {
+      "accuracy": 0.8733436470034304,
+      "precision": 0.7747608762727554,
+      "recall": 0.6853165938864629,
+      "f1_score": 0.7272990586531499,
+      "roc_auc": 0.8855648557174525
+    }
+  }
+}

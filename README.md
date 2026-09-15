@@ -82,3 +82,5 @@ The included data is the public `Loan_Default.csv` used by the original notebook
 ## Author
 
 Darren Chailand
+Ariel Tantrayoga Pinaringan
+
